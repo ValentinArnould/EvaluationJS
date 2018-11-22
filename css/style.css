@@ -1,0 +1,21 @@
+.MG {
+    font-style: 'Permanent Marker', cursive;
+}
+
+input#number {
+    width: 80px;
+}
+
+#contenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memeImg {
+    position: relative;
+    text-align: center;
+    max-width: 400px;
+    max-height: 800px;
+    margin: 5px;
+    border: solid 2px black;
+}

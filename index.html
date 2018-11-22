@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>La casa de Memes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+
+    <div id="navigation" class="container is-fluid">
+            <nav class="level">
+                    <!-- Left side -->
+                    <div class="level-left">
+                      <div class="level-item">
+                        <p class="subtitle is-5">
+                          Aidé par <strong><a href="https://memegenerator.net">Meme Generator</a></strong>
+                        </p>
+                      </div>
+                      <div class="level-item">
+                        <div class="field has-addons">
+                          <p class="control">
+                            <input id="mainSearch" class="input" type="text" placeholder="Trouver un meme">
+                          </p>
+                          <p class="control">
+                            <button class="button" onclick="searchClick()">
+                              Search
+                            </button>
+                          </p>
+                          <p class="control">
+                                <input id="number" type="number" value="10" placeholder="Nombre">                        
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="level-item">
+                        <div class="field">
+                            <p class="control">
+                            <button class="button is-info" onclick="">
+                                Images
+                            </button>
+                            <button class="button is-success" onclick="">
+                                Memes
+                            </button>
+                            </p>    
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Right side -->
+                    <div class="level-right">
+                      <p id="new" class="level-item"><button class="button"  onclick="">Nouveaux</button></p>
+                      <p id="best" class="level-item"><button class="button"  onclick="">Meilleurs</button></p>
+                      <p id="create" class="level-item"><button class="button"  onclick="">Creation</button></p>
+                      <p id="localstorage" class="level-item"><button class="button"  onclick="">Local Storage</button></p>
+                    </div>
+                  </nav>
+    </div>
+
+    <div id="contenu" class="container is-fluid has-text-centered">
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/memegeneratorapi.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+Je vais donc faire une application utilisant l'api des memes (abat l'article 13 ! Ou alors changez le !)
+
+ma clé d'api : ee6eea65-524a-4067-8f00-7bfe05e1b150
+
+avoir une image : https://memegenerator.net/img/images/42.jpg
+changer la hauteur/largeur (mettre le x à gauche ou à droite de la taille) : https://memegenerator.net/img/images/x200/42.jpg
+changer la taille découpe l'image : https://memegenerator.net/img/images/200x200/42.jpg
+avoir instance meme : https://memegenerator.net/img/instances/400x/15589864.jpg (mettre une taille obligée)
+
+fichier JSON :
+
+imageUrl : l'image
+instanceImageUrl : l'image avec les textes
+
+window.MgApi.SetApiKey('[your api key]'); // This is called only once. Get your api key at https://memegenerator.net/api.
+window.MgApi.Login('username', 'password'); // This is optional, if the user of your app logs in.
+// Most functions can be called anonymously, without logging in.
+
+window.MgApi.Generators_Search('frog', 0, 24);
+
+Generators_Select_ByTrending
+
+Instance_Create
+
+Instance_Select
+
+Instances_Search
+
+Instances_Select_ByNew ([urlName] == null)
+
+Instances_Select_ByPopular  ([days]=null for all time, [days]=1 for the last day, [days]=7 for the last week, [days]=30 for the last month [urlName] == null)
+
+MgImages_Search
+
+Templates_Select_ByUrlName
+
+
+2 premières heures :
+_ trouvé une api
+_ savoir m'en servir
+_ créer la page de l'application
+_ ... C'est tout ... espérons que ça ira vite le reste 
+
+_ Se rendre compte qu'on ne peut pas utiliser la librairie JS (cross origin bloqué encore) 16h20
+
+_ moins d'une heure, toujours pas mis en place la première fonction (je crée addMeme) 16h42
+
+_ rien ne marche plus ... 16h53
+
+_ victoire, les images s'affichent x) mais pas de local storage 17h00
+
+_ ne refonctionne plus 17h07
+
+_ plus trop le temps, je finis l'affichage et je dois créer mon déôt git, et envoyer un mail 17h15
+
+_ création du git, un peu déçu d'avoir fait aussi peu .. 17h27

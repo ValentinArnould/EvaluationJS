@@ -1,0 +1,33 @@
+                                                /////////////  VALIDATION //////////////
+                                                //                                    //
+                                                //                                    //
+                                                //                                    //
+                                                ////////////////////////////////////////
+
+Pour cette validation, vous allez devoir utiliser................................................................................................ du JavaScript ! (Woah)
+
+Vous allez devoir fournir une application permettant de contacter une API afin d'en récupérer du contenu et de l'ajouter 
+à votre DOM.
+
+Petit bémol, je sais quelle API vous avez utilisé, et il est interdit d'utiliser la même API que votre projet, 
+et ESSAYEZ d'éviter de reprendre la SWAPI.
+
+Vous allez devoir commenter au maximum votre code, utiliser au maximum (AU MAXIMUM) du JavaScript (ou JQuery) avec 
+les bonnes conventions (pas de VAR svp !), pas de concaténation au possible, des fonctions anonymes, etc.
+. Le code doit être propre et vous devrez également faire un usage intelligent des fonctions. 
+(Par exemple, en créer avec des arguments).
+
+Vous allez devoir également implémenter un système qui permet d'enregistrer certaines données en localStorage (bah oui, forcément)
+Le truc, c'est qu'une fois que vous avez ajouté une donnée en localStorage, sur une autre page (ou pas), vous devrez permettre
+à l'utilisateur, via un input par exemple, de pouvoir afficher une seule donnée qui est stockée dans son localStorage.
+
+Par exemple, si vous utilisez l'API Pokémon et qu'il ajoute des Pokémon en localStorage, il peut chercher UN seul élement grâce
+à un input, qui lui retournera un des pokémon qu'il aura cherché dans son localStorage.
+
+PS : Evidemment, vous vous en doutez, mais ce TP est à mettre sur un repository Github, et vous devrez m'envoyer un mail sur :
+a.corrot@it-akademy.fr avec comme objet : NOM PRENOM SESSION JavaScript et l'URL de votre dépot dans le mail.
+
+
+
+Bon chance :) 
+https://pbs.twimg.com/media/DDoaqNXVoAAM-t8.jpg
