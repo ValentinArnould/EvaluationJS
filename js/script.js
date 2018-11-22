@@ -68,7 +68,7 @@ const addMeme = function createMemeHtml(meme) {
     html = `<div class="image memeImg" style="background-image:url(${meme.imageUrl}); background-size: cover;">
         <img src="${meme.imageUrl}" style="visibility: hidden;" />
         <p style="position:absolute; top:0; color:white;text-align: center;">${meme.text0}</p>
-        <p style="position:absolute; bottom:0; color:white;text-align: center;">${meme.text0}</p>
+        <p style="position:absolute; bottom:0; color:white;text-align: center;">${meme.text1}</p>
     </div>`;
     debugger;
     document.querySelector('#contenu').innerHTML += html;
